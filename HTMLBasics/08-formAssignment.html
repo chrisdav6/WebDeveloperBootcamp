@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Basics 8 - Form Assignment</title>
+</head>
+
+<body>
+
+	<h1>Register</h1>
+	
+	<form action="http://www.google.com" method="get">
+		<p>
+			<label for="firstName">First Name: </label>
+			<input type="text" name="firstName" id="firstName" placeholder="John" required>
+			<label for="lastName">Last Name: </label>
+			<input type="text" name="lastName" id="lastName" placeholder="Smith" required>
+		</p>
+
+		<p>Gender
+			<input type="radio" name="gender" id="male" value="male">
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="other" value="fother">
+			<label for="other">Other</label>
+		</p>
+
+		<p>
+			<label for="email">Email: </label>
+			<input type="email" name="email" id="email" placeholder="Your Email" required>
+			<label for="password">Password: </label>
+			<input type="password" name="password" id="password" placeholder="Your Password" minlength="5" maxlength="10" required>
+		</p>
+
+		<p>Birthday
+			<select name="month" id="month">
+				<option selected disabled>Month</option>
+				<option value="January">January</option>
+				<option value="February">February</option>
+			</select>
+			<select name="day" id="day">
+				<option selected disabled>Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+			</select>
+			<select name="year" id="year">
+				<option selected disabled>Year</option>
+				<option value="1976">1976</option>
+				<option value="1977">1977</option>
+			</select>
+		</p>
+
+		<p>I agree to the terms and conditions
+			<input type="checkbox" name="terms" id="terms" value="agree">
+		</p>
+		
+		<p>
+			<input type="submit" value="Submit">
+		</p>
+	</form>
+
+</body>
+
+</html>
