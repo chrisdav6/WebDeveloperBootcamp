@@ -4,6 +4,7 @@ body {
 
 h1 {
 	color: rgba(240,0,100, .5);
+	border: 2px solid rgba(100,100,100, .5);
 }
 
 li {
