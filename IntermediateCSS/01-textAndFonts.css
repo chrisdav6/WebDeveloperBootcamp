@@ -28,3 +28,22 @@ span {
 	font-size: 2em;
 }
 
+/*Font Weight*/
+p {
+	font-weight: bold;
+}
+
+/*Line Height*/
+p {
+	line-height: 1.5;
+}
+
+/*Text Align*/
+h1 {
+	text-align: center;
+}
+
+/*Text Decoration*/
+span {
+	text-decoration: underline;
+}
