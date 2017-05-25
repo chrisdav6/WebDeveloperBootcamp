@@ -1,7 +1,7 @@
 h1 {
-	color: #FF0000;
+	color: rgba(240,0,100, .5);
 }
 
 li {
-	color: #54206E;
+	color: rgba(30,45,200, 1);
 }
