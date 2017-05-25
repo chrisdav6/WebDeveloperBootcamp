@@ -1,3 +1,34 @@
+/*Element*/
+li {
+
+}
+
+/*class*/
+.myClass {
+
+}
+
+/*Star*/
 * {
 	border: 1px solid lightgrey;
+}
+
+/*Decendant Selector*/
+li a {
+	color: red;
+}
+
+/*Adjacent Selector - Selects all uls that come after h4's*/
+h4 + ul {
+	border: 4px solid red;
+}
+
+/*Attribute Selector*/
+a[href="https://twitter.com/_steve_brule?lang=en"] {
+	background: gray;
+}
+
+/*nth of type - Selects every third li*/
+li:nth-of-type(3) {
+	background: green;
 }
