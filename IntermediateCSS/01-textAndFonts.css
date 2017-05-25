@@ -4,7 +4,11 @@ p {
 }
 
 h1 {
-	font-family: Georgia;
+	font-family: 'Barrio';
+}
+
+h2 {
+	font-family: 'Freckle Face';
 }
 
 /*Font Size*/
