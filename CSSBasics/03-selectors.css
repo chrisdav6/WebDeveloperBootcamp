@@ -1,7 +1,3 @@
-.highlight {
-	background: yellow;
-}
-
-.completed {
-	text-decoration: line-through;
+* {
+	border: 1px solid lightgrey;
 }
