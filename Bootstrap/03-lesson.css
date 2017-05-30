@@ -1,14 +1,12 @@
-.blue {
-	height: 100px;
-	background: blue;
+.container {
+	margin-top: 20px;
 }
 
-.red {
-	height: 100px;
-	background: red;
+.myClass {
+	border: 1px solid black;
+	height: 50px;
 }
 
-.green {
-	height: 100px;
-	background: green;
+.row {
+	margin-bottom: 20px;
 }
