@@ -1,3 +1,10 @@
 body {
-	padding-top: 70px;
+	background: url("lesson5Images/broats1.jpg")no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#content {
+	text-align: center;
+	padding-top: 25%;
 }
