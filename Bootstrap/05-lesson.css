@@ -2,6 +2,7 @@ body {
 	background: url("lesson5Images/broats1.jpg")no-repeat;
 	background-size: cover;
 	background-position: center;
+	font-family: Lato;
 }
 
 #content {
