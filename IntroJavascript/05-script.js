@@ -23,3 +23,4 @@ do{
 //When number is correct, tell user they got it
 document.write("Congrats you guessed it, my number was " + userNumber + "! I don't care!");
 
+
