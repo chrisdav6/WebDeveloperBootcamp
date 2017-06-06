@@ -1,0 +1,18 @@
+.highlight2 {
+	color: lightblue;
+	border: 5px solid green;
+	font-size: 20px;
+	background: yellow;
+	display: inline-block;
+	padding: 50px;
+	text-align: center;
+}
+
+.removeMe {
+	color: red;
+}
+
+.toggleMe {
+	color: green;
+	background: orange;
+}
