@@ -1,0 +1,8 @@
+.strike {
+	text-decoration: line-through;
+	color: lightgray;
+}
+
+.highlight {
+	background: yellow;
+}
