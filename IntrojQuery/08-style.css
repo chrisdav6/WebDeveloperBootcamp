@@ -1,0 +1,44 @@
+body {
+	height: 1000px;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.div1 {
+	background: green;
+}
+
+.div2 {
+	background: blue;
+}
+
+.div3 {
+	background: orange;
+}
+
+.div4 {
+	background: red;
+	display: none;
+}
+
+.div5 {
+	background: steelblue;
+}
+
+.div6 {
+	background: gray;
+	display: none;
+}
+
+.div7 {
+	background: yellow;
+}
+
+.div8 {
+	background: black;
+}
