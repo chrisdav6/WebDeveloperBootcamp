@@ -16,4 +16,16 @@ $(function() {
 		});
 	});
 
+	//Add new todo
+	$("input[type='text']").on("keypress", function(event){
+		if(event.which === 13) {
+			//Grab new todo text from input
+			var todoText = $(this).val();
+			//Create new li with todo text and append to ul
+			$("ul").append("<li><span>X</span> " + todoText + "</li>");
+			//Clear text within the text input
+			$(this).val("");
+		}
+	});
+
 });
