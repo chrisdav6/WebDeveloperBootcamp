@@ -28,4 +28,9 @@ $(function() {
 		}
 	});
 
+	//Toggle the New Todo Input when the Pencil icon is clicked
+	$(".fa-pencil-square-o").on("click", function() {
+		$("input[type='text']").fadeToggle();
+	});
+
 });
