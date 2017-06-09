@@ -7,4 +7,13 @@ $(function() {
 		$(this).toggleClass("completed");
 	});
 
+	//Click on X to delete specific todo - fadeOut then remove
+	//Stop propagation from bubbling up to the li click event handler
+	$("span").on("click", function(event) {
+		event.stopPropagation();
+		$(this).parent().fadeOut(500, function() {
+			$(this).remove();
+		});
+	});
+
 });
